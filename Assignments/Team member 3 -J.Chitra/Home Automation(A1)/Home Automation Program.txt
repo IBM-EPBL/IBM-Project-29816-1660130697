@@ -1,0 +1,32 @@
+#define t 13
+#define e 12
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(4,INPUT);
+  pinMode(t,OUTPUT);
+  pinMode(e,INPUT);
+  pinMode(7,OUTPUT);
+  pinMode(8,OUTPUT);
+}
+void loop()
+{
+  int value=digitalRead(4);
+  digitalWrite(7,value);
+  digitalWrite(8,value);
+  digitalWrite(t,LOW);
+  digitalWrite(e,HIGH);
+  delayMicroseconds(10);
+  digitalWrite(t,LOW);
+  float dur=pulseIn(e,HIGH);
+  float dis((dur/2)*0.0343);
+  Serial.println(value);
+  Serial.println("distance in cm:");
+  Serial.println(dis);
+  if (dis>120)
+  {
+    digitalWrite(7,HIGH);
+    digitalWrite(8,HIGH);
+  }
+  delay(100);
+}
