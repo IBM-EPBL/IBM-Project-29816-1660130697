@@ -1,0 +1,15 @@
+#import the necessary package!
+import random
+from time import *
+gate=True
+#temprature searching
+while(gate):
+    temperature = random.randint(0,40)
+    humidity = random.randint(30,40)
+    if temperature>35 and humidity<40:
+        print("Temperature =",temperature,"Humidity =",humidity)
+        print("Alert message in Activate")
+        gate=False
+    else:
+        print("Temperature =",temperature,"Humidity",humidity)
+    sleep(1);
