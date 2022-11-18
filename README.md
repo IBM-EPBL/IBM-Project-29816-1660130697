@@ -3,7 +3,7 @@
 ⚙TECHNOLOGY : IOT
 📌Team ID :PNT2022TMID48513
 
-👤Team Members:
+👤Team Members
 
 Team Leader : M.Rasika
 
@@ -68,8 +68,6 @@ Develop A Web Application Using Node-RED Service
 ❇ Empathy Map
 
 ❇ Brainstorm
-
-🧿 DESIGN PHASE
 
 📎 DESIGN PHASE 01
 
