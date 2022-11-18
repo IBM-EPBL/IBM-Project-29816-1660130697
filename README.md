@@ -1,6 +1,8 @@
 # IBM-Project-29816-1660130697
 🌾IoT Based Smart Crop Protection System for Agriculture 👩‍🌾📱
-⚙TECHNOLOGY : IOT
+
+⚙DOMAIN : IOT
+
 📌Team ID :PNT2022TMID48513
 
 👤Team Members
@@ -69,31 +71,31 @@ Develop A Web Application Using Node-RED Service
 
 ❇ Brainstorm
 
-📎 DESIGN PHASE 01
+📎 PROJECT DESIGN PHASE 01
 
-🔷 Problem Solution
+🔷 Proposed Solution
 
 🔷 Problem-Solution fit
 
 🔷 Solution Architecture
 
-📎 DESIGN PHASE 02
+📎 PROJECT DESIGN PHASE 02
 
-💠 Solution Architecture
+💠 Customer Journey
 
-💠 Customer Journy Map
+💠 Functional Requirements
 
 💠 Data Flow Diagram
 
-💠 Technology Stack
+💠 Technology Architecture
 
-📃 PLANNING PHASE
+📃 PROJECT PLANNING PHASE
 
 🔘 Milestone And Activity List
 
 🔘 Sprint Delivery Plan
 
-🖥PROJECT DEVELOPMENT
+🖥PROJECT DEVELOPMENT PHASE
 
 🔲 Sprint 01
 
